@@ -638,7 +638,7 @@ Header Style
     height: 50px;
     font-weight: 400;
     color: #1e1e1e;
-    background-color: #f1f0fe;
+    background-color: #efeefd;
     border-radius: 0px 0px 25px 25px;
   }
   .background-header .main-nav .nav li,
@@ -738,7 +738,7 @@ Banner Style
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 170px 0px 120px 0px;
+  padding: 170px 0px 50px 0px;
 }
 
 .main-banner .item-1 {
@@ -872,7 +872,7 @@ Services Style
 
 .services .service-item {
   position: relative;
-  margin-top: 95px;
+  margin-top: 15px;
 }
 
 .services .service-item .icon {
@@ -894,8 +894,8 @@ Services Style
 }
 
 .services .service-item .main-content {
-  border-radius: 50px;
-  padding: 50px 30px 50px 30px;
+  border-radius: 25px;
+  padding: 30px 30px 30px 30px;
   background-color: #f1f0fe;
   margin-bottom: 0px;
 
@@ -945,13 +945,13 @@ About Style
   margin-top: -40px;
   margin-bottom: -40px;
   background-color: #ff3347;
-  border-radius: 40px;
+  border-radius: 30px;
   padding: 80px 50px 50px 50px;
 }
 
 .accordion-item {
   background-color: #fff;
-  border-radius: 40px !important;
+  border-radius: 30px !important;
   margin-bottom: 30px;
   border: none;
 }
@@ -1028,10 +1028,11 @@ Courses Style
 .event_filter {
   background-color: #f1f0fe;
   border-radius: 50px;
-  padding: 15px 40px;
+  padding: 15px 25px;
   list-style: none;
-  margin: 0 auto 70px;
+  margin: 0 auto 25px;
   max-width: max-content;
+  
 }
 
 .event_filter li {
@@ -1145,7 +1146,7 @@ Facts Style
 
 .fun-facts {
   position: relative;
-  padding: 120px 0px 80px 0px;
+  padding: 30px 0px 10px 0px;
   overflow: hidden;
 }
 
@@ -1159,14 +1160,14 @@ Facts Style
   height: 100%;
   background-color: #ff3347;
   content: "";
-  border-top-right-radius: 500px;
-  border-bottom-right-radius: 500px;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
 }
 
 .fun-facts:after {
   background: url(../images/contact-dec-01.png);
   position: absolute;
-  left: 15%;
+  left: 10%;
   opacity: 0.5;
   top: 0;
   width: 318px;
@@ -1302,7 +1303,7 @@ Testimonials Style
 }
 
 .testimonials .section-heading p {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .testimonials .item {
@@ -1317,7 +1318,7 @@ Testimonials Style
   color: #fff;
   font-style: italic;
   font-weight: 300;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .testimonials .item img {
@@ -1382,7 +1383,7 @@ Events Style
 */
 
 .events .section-heading {
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 
 .events .item {
@@ -1472,9 +1473,9 @@ Contact Style
 */
 
 .contact-us {
-  margin-top: 80px;
+  margin-top: 10px;
   position: relative;
-  padding: 50px 0px;
+  padding: 10px 0px;
 }
 
 .contact-us:before {
@@ -1492,12 +1493,13 @@ Contact Style
 }
 
 .contact-us .section-heading {
+  position: relative;
   margin-right: 110px;
   margin-bottom: 0px;
 }
 
 .contact-us .section-heading p {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .contact-us .special-offer {
@@ -1702,12 +1704,12 @@ footer {
   background-color: #ff3347;
   vertical-align: middle;
   min-height: 150px;
-  border-radius: 150px 150px 0px 0px;
+  border-radius: 50px 50px 0px 0px;
 }
 
 footer p {
   text-align: center;
-  line-height: 150px;
+  line-height: 80px;
   color: #fff;
   font-weight: 400;
 }
@@ -1720,7 +1722,7 @@ footer p a {
 }
 
 footer p a:hover {
-  opacity: 0.75;
+  opacity: 0.5;
 }
 
 footer::before {
@@ -1817,10 +1819,10 @@ body {
     left: 65px;
   }
   .services {
-    margin-top: 80px;
+    margin-top: 20px;
   }
   .about-us {
-    margin-top: 100px;
+    margin-top: 10px;
   }
   .accordion {
     padding: 40px 25px 10px 25px;
@@ -1832,7 +1834,7 @@ body {
   }
   .about-us .section-heading {
     margin-left: 0px;
-    margin-top: 120px;
+    margin-top: 10px;
   }
   .about-us::before,
   .testimonials::before,
@@ -1842,7 +1844,7 @@ body {
   .about-us .section-heading p,
   .testimonials .section-heading p,
   .contact-us .section-heading p {
-    margin-top: 100px;
+    margin-top: 10px;
   }
 
   .about-us .main-button a {
@@ -1850,14 +1852,14 @@ body {
     color: #fff;
   }
   .courses {
-    margin-top: 100px;
+    margin-top: 10px;
   }
   .event_filter ul li {
     display: block;
     margin: 12px 5px;
   }
   .fun-facts {
-    margin-top: 70px;
+    margin-top: 10px;
   }
   .fun-facts::before {
     width: 95%;
@@ -1950,7 +1952,7 @@ body {
     padding: 30px;
   }
   footer {
-    margin-top: 30px;
+    margin-top: 10px;
   }
 }
 
