@@ -1032,7 +1032,6 @@ Courses Style
   list-style: none;
   margin: 0 auto 25px;
   max-width: max-content;
-  
 }
 
 .event_filter li {
@@ -2041,4 +2040,44 @@ body {
   .service-item p {
     font-size: 1rem; /* Smaller paragraph text */
   }
+}
+
+.contact-link {
+  color: inherit; /* Inherit color from parent */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.contact-link:hover {
+  color: #ff3347; /* Change color on hover */
+}
+.service-item {
+  /* Optional: Add border for better visibility */
+  border-radius: 25px;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 100%; /* Ensures all cards are the same height */
+  display: flex;
+  flex-direction: column; /* Stacks content vertically */
+  justify-content: space-between; /* Evenly spaces out content */
+}
+
+.main-content {
+  flex-grow: 1; /* Allows main-content to grow and fill available space */
+}
+
+.btn-custom {
+  background-color: #ff3347; /* Button background color */
+  color: #fff; /* Text color */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding for the button */
+  border-radius: 20px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Font size */
+  display: inline-block; /* Display as inline-block */
+  transition: background-color 0.3s; /* Transition effect */
+}
+
+.btn-custom:hover {
+  background-color: #e62e3c; /* Darker shade on hover */
 }
