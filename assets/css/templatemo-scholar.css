@@ -187,12 +187,12 @@ body {
 }
 
 ::selection {
-  background: #ff3347;
+  background: #ed2227;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #ff3347;
+  background: #ed2227;
   color: #fff;
 }
 
@@ -214,12 +214,12 @@ body {
 }
 
 .section-heading h2 em {
-  color: #ff3347;
+  color: #ed2227;
   font-style: normal;
 }
 
 .section-heading h6 {
-  color: #ff3347;
+  color: #ed2227;
   font-size: 36px;
   text-transform: uppercase;
   font-weight: 600;
@@ -228,7 +228,7 @@ body {
 .main-button a {
   display: inline-block;
   background-color: #fff;
-  color: #ff3347;
+  color: #ed2227;
   font-size: 14px;
   font-weight: 500;
   height: 40px;
@@ -239,7 +239,7 @@ body {
 }
 
 .main-button a:hover {
-  background-color: #ff3347;
+  background-color: #ed2227;
   color: #fff;
 }
 
@@ -316,7 +316,7 @@ Pre-loader Style
   height: 16px;
   top: 12px;
   left: 15px;
-  background: #ff3347;
+  background: #ed2227;
   border-radius: 50%;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -339,7 +339,7 @@ Pre-loader Style
   width: 16px;
   height: 16px;
   margin-left: 16px;
-  background: #ff3347;
+  background: #ed2227;
   border-radius: 50%;
 }
 
@@ -350,7 +350,7 @@ Header Style
 */
 
 .background-header {
-  background-color: #ff3347 !important;
+  background-color: #ed2227 !important;
   border-radius: 0px 0px 25px 25px;
   height: 80px !important;
   position: fixed !important;
@@ -674,7 +674,7 @@ Header Style
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #ff3347 !important;
+    color: #ed2227 !important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -763,7 +763,7 @@ Banner Style
 }
 
 .main-banner .item span.category {
-  background-color: #ff3347;
+  background-color: #ed2227;
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
@@ -798,7 +798,7 @@ Banner Style
 
 .main-banner .item .buttons .main-button a {
   font-size: 14px;
-  color: #ff3347;
+  color: #ed2227;
   background-color: #fff;
   display: inline-block;
   height: 50px;
@@ -809,7 +809,7 @@ Banner Style
 }
 
 .main-banner .item .buttons .icon-button i {
-  color: #ff3347;
+  color: #ed2227;
   background-color: #fff;
   display: inline-block;
   height: 50px;
@@ -881,7 +881,7 @@ Services Style
   display: inline-block;
   text-align: center;
   line-height: 190px;
-  background-color: #ff3347;
+  background-color: #ed2227;
   border-radius: 50%;
   position: absolute;
   right: 0;
@@ -944,7 +944,7 @@ About Style
 .accordion {
   margin-top: -40px;
   margin-bottom: -40px;
-  background-color: #ff3347;
+  background-color: #ed2227;
   border-radius: 30px;
   padding: 80px 50px 50px 50px;
 }
@@ -963,7 +963,7 @@ About Style
 }
 
 .accordion-button:not(.collapsed) {
-  color: #ff3347;
+  color: #ed2227;
   background-color: #fff;
 }
 
@@ -985,7 +985,7 @@ h2.accordion-header button {
   text-align: center;
   line-height: 30px;
   border-radius: 50%;
-  background-color: #ff3347;
+  background-color: #ed2227;
   color: #fff;
 }
 
@@ -1048,7 +1048,7 @@ Courses Style
 
 .event_filter li .event_filter li a.is_active,
 .event_filter li a:hover {
-  color: #ff3347;
+  color: #000000;
 }
 
 .events_item .thumb {
@@ -1067,12 +1067,13 @@ Courses Style
   top: 30px;
   font-size: 14px;
   text-transform: uppercase;
-  color: #ff3347;
+  color: #ed2227;
   background-color: rgba(250, 250, 250, 0.95);
   padding: 8px 20px;
   border-radius: 25px;
   font-weight: 500;
   display: inline-block;
+  border: 0.1px solid #ff3347; /* Change this line */
 }
 
 .events_item .thumb span.price {
@@ -1110,6 +1111,7 @@ Courses Style
   position: relative;
   justify-content: center;
   align-items: center;
+  border: 0.1px solid #ff3347; /* Change this line */
 }
 
 .events_item .down-content {
@@ -1117,7 +1119,7 @@ Courses Style
 }
 
 .events_item .down-content span.author {
-  color: #ff3347;
+  color: #ed2227;
   font-size: 15px;
   display: inline-block;
   margin-bottom: 6px;
@@ -1130,7 +1132,7 @@ Courses Style
 }
 
 .events_item:hover .down-content h4 {
-  color: #ff3347;
+  color: #ed2227;
 }
 
 .events_item:hover .thumb span.price {
@@ -1157,7 +1159,7 @@ Facts Style
   z-index: -1;
   width: 95%;
   height: 100%;
-  background-color: #ff3347;
+  background-color: #ed2227;
   content: "";
   border-top-right-radius: 200px;
   border-bottom-right-radius: 200px;
@@ -1235,7 +1237,7 @@ Team Style
 }
 
 .team-member .main-content span.category {
-  color: #ff3347;
+  color: #ed2227;
   font-size: 15px;
 }
 
@@ -1253,7 +1255,7 @@ Team Style
 
 .team-member .main-content ul li a {
   background-color: #fff;
-  color: #ff3347;
+  color: #ed2227;
   display: inline-block;
   text-align: center;
   line-height: 40px;
@@ -1265,7 +1267,7 @@ Team Style
 }
 
 .team-member .main-content ul li a:hover {
-  background-color: #ff3347;
+  background-color: #ed2227;
   color: #fff;
 }
 
@@ -1306,7 +1308,7 @@ Testimonials Style
 }
 
 .testimonials .item {
-  background-color: #ff3347;
+  background-color: #ed2227;
   border-radius: 25px;
   padding: 80px;
 }
@@ -1356,7 +1358,7 @@ Testimonials Style
   line-height: 50px;
   font-size: 24px;
   display: inline-block;
-  color: #ff3347;
+  color: #ed2227;
   background-color: #fff;
   border-radius: 50%;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
@@ -1391,6 +1393,7 @@ Events Style
   position: relative;
   padding: 40px;
   margin-bottom: 96px;
+  border: 2px solid #ff3347; /* Change this line */
 }
 
 .events .item .image {
@@ -1422,7 +1425,7 @@ Events Style
 .events .item ul li span.category {
   font-size: 14px;
   text-transform: uppercase;
-  color: #ff3347;
+  color: #ed2227;
   background-color: #fff;
   padding: 8px 20px;
   border-radius: 25px;
@@ -1445,7 +1448,7 @@ Events Style
 
 .events .item ul li h6 {
   font-size: 16px;
-  color: #ff3347;
+  color: #ed2227;
   font-weight: 600;
 }
 
@@ -1453,7 +1456,7 @@ Events Style
   position: absolute;
   right: 0;
   top: 22px;
-  background-color: #ff3347;
+  background-color: #ed2227;
   width: 60px;
   height: 120px;
   display: inline-block;
@@ -1514,7 +1517,7 @@ Contact Style
   position: absolute;
   left: 0;
   top: 0;
-  background-color: #ff3347;
+  background-color: #ed2227;
   width: 80px;
   padding: 30px 8px;
   line-height: 25px;
@@ -1544,7 +1547,7 @@ Contact Style
 
 .contact-us .special-offer h6 em {
   font-style: normal;
-  color: #ff3347;
+  color: #ed2227;
   font-weight: 600;
 }
 
@@ -1555,7 +1558,7 @@ Contact Style
 
 .contact-us .special-offer h4 em {
   font-style: normal;
-  color: #ff3347;
+  color: #ed2227;
 }
 
 .contact-us .special-offer a {
@@ -1567,7 +1570,7 @@ Contact Style
   display: inline-block;
   text-align: center;
   line-height: 50px;
-  background-color: #ff3347;
+  background-color: #ed2227;
   color: #fff;
   border-radius: 50%;
 }
@@ -1575,7 +1578,7 @@ Contact Style
 .contact-us .contact-us-content {
   border-radius: 25px;
   padding: 80px;
-  background-color: #ff3347;
+  background-color: #ed2227;
   position: relative;
   z-index: 1;
 }
@@ -1652,7 +1655,7 @@ Contact Style
   background-color: #fff;
   padding: 0px 25px;
   border-radius: 25px;
-  color: #ff3347;
+  color: #ed2227;
   transition: all 0.4s;
   position: relative;
   z-index: 3;
@@ -1700,7 +1703,7 @@ Footer Style
 footer {
   margin-top: 150px;
   position: relative;
-  background-color: #ff3347;
+  background-color: #ed2227;
   vertical-align: middle;
   min-height: 150px;
   border-radius: 50px 50px 0px 0px;
@@ -1847,7 +1850,7 @@ body {
   }
 
   .about-us .main-button a {
-    background-color: #ff3347;
+    background-color: #ed2227;
     color: #fff;
   }
   .courses {
@@ -1974,7 +1977,7 @@ body {
   position: relative;
   width: 100%;
   height: 300px;
-  border: 1px solid #ff3347;
+  border: 1px solid #ed2227;
   border-radius: 20px;
   overflow: hidden;
   margin: auto;
@@ -2049,7 +2052,7 @@ body {
 }
 
 .contact-link:hover {
-  color: #ff3347; /* Change color on hover */
+  color: #ed2227; /* Change color on hover */
 }
 .service-item {
   /* Optional: Add border for better visibility */
@@ -2067,7 +2070,7 @@ body {
 }
 
 .btn-custom {
-  background-color: #ff3347; /* Button background color */
+  background-color: #ed2227; /* Button background color */
   color: #fff; /* Text color */
   border: none; /* No border */
   padding: 10px 20px; /* Padding for the button */
