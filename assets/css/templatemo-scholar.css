@@ -198,7 +198,7 @@ body {
 
 .section {
   padding-top: 30px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .section-heading {
@@ -630,7 +630,7 @@ Header Style
 @media (max-width: 767px) {
   .background-header .main-nav .nav,
   .header-area .main-nav .nav {
-    background-color: #f1f0fe;
+    background-color: #dae3fe;
   }
   .background-header .main-nav .nav li a,
   .header-area .main-nav .nav li a {
@@ -644,7 +644,7 @@ Header Style
   .background-header .main-nav .nav li,
   .header-area .main-nav .nav li {
     border-top: 1px solid #ddd;
-    background-color: #f1f0fe;
+    background-color: #dae3fe;
     height: 50px;
     border-radius: 0px 0px 25px 25px;
   }
@@ -872,15 +872,15 @@ Services Style
 
 .services .service-item {
   position: relative;
-  margin-top: 15px;
+  margin-top: 0px;
 }
 
 .services .service-item .icon {
-  width: 190px;
-  height: 190px;
+  width: 150px;
+  height: 150px;
   display: inline-block;
   text-align: center;
-  line-height: 190px;
+  line-height: 150px;
   background-color: #ed2227;
   border-radius: 50%;
   position: absolute;
@@ -896,7 +896,7 @@ Services Style
 .services .service-item .main-content {
   border-radius: 25px;
   padding: 30px 30px 30px 30px;
-  background-color: #f1f0fe;
+  background-color: #dae3fe;
   margin-bottom: 0px;
 
   transition: all 0.4s;
@@ -935,7 +935,7 @@ About Style
   z-index: -1;
   width: 84%;
   height: 100%;
-  background-color: #f1f0fe;
+  background-color: #dae3fe;
   content: "";
   border-top-left-radius: 500px;
   border-bottom-left-radius: 500px;
@@ -1026,7 +1026,7 @@ Courses Style
 }
 
 .event_filter {
-  background-color: #f1f0fe;
+  background-color: #dae3fe;
   border-radius: 50px;
   padding: 15px 25px;
   list-style: none;
@@ -1055,10 +1055,12 @@ Courses Style
   position: relative;
   border-radius: 25px;
   overflow: hidden;
+  
 }
 
 .events_item .thumb img {
   margin-bottom: -5px;
+  object-fit: contain; 
 }
 
 .events_item .thumb span.category {
@@ -1073,7 +1075,7 @@ Courses Style
   border-radius: 25px;
   font-weight: 500;
   display: inline-block;
-  border: 0.1px solid #ff3347; /* Change this line */
+  border: 0.1px solid #ed2227; /* Change this line */
 }
 
 .events_item .thumb span.price {
@@ -1105,13 +1107,13 @@ Courses Style
 }
 
 .events_item {
-  background-color: #f1f0fe;
+  background-color: #dae3fe;
   border-radius: 25px;
   margin-bottom: 30px;
   position: relative;
   justify-content: center;
   align-items: center;
-  border: 0.1px solid #ff3347; /* Change this line */
+  border: 0.1px solid #ed2227; /* Change this line */
 }
 
 .events_item .down-content {
@@ -1138,6 +1140,61 @@ Courses Style
 .events_item:hover .thumb span.price {
   transform: scale(1.2);
 }
+
+@media (max-width: 767px) { /* Targeting mobile devices */
+  
+  .events_item {
+    padding: 20px;
+    margin-bottom: 15px; /* Less margin between items */
+  }
+
+  .events_item .thumb {
+    height: 200px; /* Set a fixed height for images */
+  }
+
+  .events_item .thumb img {
+    height: 100%; /* Ensure the image fills the thumb container */
+    object-fit: contain; /* Maintain aspect ratio and fill container */
+  }
+
+  .events_item .down-content {
+    padding: 10px 15px 15px 15px; /* Reduce padding */
+  }
+
+  .events_item .down-content h4 {
+    font-size: 18px; /* Slightly reduce font size */
+    margin-bottom: 8px; /* Less space below title */
+  }
+
+  .events_item .down-content span.author {
+    font-size: 13px; /* Smaller font for author */
+    margin-bottom: 4px;
+  }
+
+  .events_item .thumb span.category {
+    font-size: 12px; /* Smaller category text */
+    padding: 5px 10px; /* Reduce padding */
+  }
+
+  .events_item .thumb span.price {
+    width: 80px;
+    height: 80px; /* Smaller price badge */
+    top: -30px;
+    right: -20px;
+  }
+
+  .events_item .thumb span.price h6 {
+    font-size: 18px;
+    margin-top: 35px;
+    margin-left: 10px;
+  }
+
+  .events_item .thumb span.price em {
+    font-size: 14px;
+  }
+}
+
+
 
 /* 
 ---------------------------------------------
@@ -1232,7 +1289,7 @@ Team Style
 .team-member .main-content {
   border-radius: 25px;
   padding: 140px 30px 40px 30px;
-  background-color: #f1f0fe;
+  background-color: #dae3fe;
   text-align: center;
 }
 
@@ -1291,7 +1348,7 @@ Testimonials Style
   z-index: -1;
   width: 65%;
   height: 100%;
-  background-color: #f1f0fe;
+  background-color: #dae3fe;
   content: "";
   border-top-left-radius: 500px;
   border-bottom-left-radius: 500px;
@@ -1304,18 +1361,18 @@ Testimonials Style
 }
 
 .testimonials .section-heading p {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .testimonials .item {
   background-color: #ed2227;
   border-radius: 25px;
-  padding: 80px;
+  padding: 60px;
 }
 
 .testimonials .item p {
-  font-size: 18px;
-  line-height: 40px;
+  font-size: 14px;
+  line-height: 20px;
   color: #fff;
   font-style: italic;
   font-weight: 300;
@@ -1324,9 +1381,10 @@ Testimonials Style
 
 .testimonials .item img {
   border-radius: 50%;
-  max-width: 100px;
+  max-height: 128px;
+  max-width: 192px;
   float: left;
-  margin-right: 25px;
+  margin-right: 20px;
 }
 
 .testimonials .item span {
@@ -1388,7 +1446,7 @@ Events Style
 }
 
 .events .item {
-  background-color: #f1f0fe;
+  background-color: #dae3fe;
   border-radius: 25px;
   position: relative;
   padding: 40px;
@@ -1488,7 +1546,7 @@ Contact Style
   z-index: -1;
   width: 65%;
   height: 100%;
-  background-color: #f1f0fe;
+  background-color: #dae3fe;
   content: "";
   border-top-right-radius: 500px;
   border-bottom-right-radius: 500px;
@@ -1935,7 +1993,7 @@ body {
     margin-right: 0px;
   }
   .contact-us .special-offer {
-    background-color: #f1f0fe;
+    background-color: #dae3fe;
     margin-bottom: 60px;
     padding: 34px 30px 34px 100px;
     width: 100%;
