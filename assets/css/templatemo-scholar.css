@@ -2142,3 +2142,41 @@ body {
 .btn-custom:hover {
   background-color: #e62e3c; /* Darker shade on hover */
 }
+
+/* slider */ 
+
+
+
+
+.slide-track {
+  display: flex;
+  justify-content: center; /* Center aligns flex items horizontally */
+}
+
+.slide {
+  flex: 0 0 auto; /* Ensures each slide takes its content width */
+  padding: 0 10px; /* Optional padding between slides */
+}
+.slider {
+  width: 100%;
+  overflow: hidden; /* Ensures slides do not overflow horizontally */
+}
+
+.slide-track {
+  display: flex;
+  animation: slide 20s linear infinite; /* Animation properties */
+}
+
+.slide {
+  flex: 0 0 auto; /* Ensures each slide takes its content width */
+  padding: 0 10px; /* Optional padding between slides */
+}
+
+@keyframes slide {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
