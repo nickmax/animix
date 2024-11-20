@@ -249,7 +249,7 @@ Pre-loader Style
 --------------------------------------------- 
 */
 
-.js-preloader {
+/* .js-preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -270,10 +270,10 @@ Pre-loader Style
 }
 
 .js-preloader.loaded {
-  opacity: 0;
+  opacity: ;
   visibility: hidden;
   pointer-events: none;
-}
+} */
 
 @-webkit-keyframes dot {
   50% {
@@ -942,8 +942,8 @@ About Style
 }
 
 .accordion {
-  margin-top: -40px;
-  margin-bottom: -40px;
+  margin-top: 20px;
+  margin-bottom: 5px;
   background-color: #ed2227;
   border-radius: 30px;
   padding: 80px 50px 50px 50px;
@@ -1060,7 +1060,7 @@ Courses Style
 
 .events_item .thumb img {
   margin-bottom: -5px;
-  object-fit: contain; 
+  object-fit: cover; 
 }
 
 .events_item .thumb span.category {
@@ -1154,7 +1154,7 @@ Courses Style
 
   .events_item .thumb img {
     height: 100%; /* Ensure the image fills the thumb container */
-    object-fit: contain; /* Maintain aspect ratio and fill container */
+    object-fit: scale-down; /* Maintain aspect ratio and fill container */
   }
 
   .events_item .down-content {
@@ -1380,9 +1380,9 @@ Testimonials Style
 }
 
 .testimonials .item img {
-  border-radius: 50%;
-  max-height: 128px;
-  max-width: 192px;
+  border-radius: 400px;
+  max-height: 100px;
+  max-width: 100px;
   float: left;
   margin-right: 20px;
 }
